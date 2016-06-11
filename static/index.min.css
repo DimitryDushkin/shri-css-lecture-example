@@ -262,9 +262,6 @@ noindex:-o-prefocus, .spin2
   border-top: 1px solid #cbcbcb;
   text-align: center;
 }
-.about .section__content {
-  width: 900px;
-}
 .about .image {
   height: 64px;
 }
@@ -407,7 +404,7 @@ noindex:-o-prefocus, .spin2
 }
 .header__demo.button2_theme_pseudo {
   color: #fc0;
-  margin-right: 44px;
+  margin-right: 24px;
 }
 .header__demo.button2_theme_pseudo:before {
   border: 2px solid #fc0;
@@ -415,7 +412,7 @@ noindex:-o-prefocus, .spin2
 .header__demo.button2_theme_pseudo.button2_hovered_yes:before {
   border-color: #fc0;
 }
-.header .title {
+.header__title {
   font-size: 79px;
   margin-top: 95px;
 }
@@ -426,7 +423,7 @@ noindex:-o-prefocus, .spin2
   color: #fff;
 }
 
-.header .sub-title {
+.header__sub-title {
   font-size: 34px;
   max-width: 745px;
   margin-top: 30px;

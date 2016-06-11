@@ -10,19 +10,23 @@
 
     <meta name="viewport" content="width=device-width,maximum-scale=1,initial-scale=1">
     <style>
-/*         @media (max-width: 400px) {
-            .header .sub-title {
+         @media (max-width: 400px) {
+             .header__title {
+                 font-size: 36px;
+             }
+
+            .header__sub-title {
                 font-size: 21px;
             }
-            .header .title {
-                font-size: 36px;
-            }
         }
-*/
-        .section__content {
+
+        .section__content
+         {
             max-width: 1200px;
             width: auto;
+            padding: 0 16px
         }
+
     </style>
 </head>
 
@@ -31,8 +35,8 @@
         <div class="section" id="aim-h">
             <div class="section__content"><span class="logo logo_lang_ru"><a class="link link_theme_normal link_inner_yes i-bem" data-bem="{&quot;link&quot;:{&quot;_tabindex&quot;:&quot;0&quot;,&quot;origTabindex&quot;:&quot;0&quot;}}" title="Yandex Data Factory main site link" tabindex="0" href="https://yandexdatafactory.com/"><img class="image" src="./static/ydf-logo-white.svg" alt="Yandex Data Factory logo"></a></span>
                 <h1
-                class="title">Automatic Image Moderation</h1>
-                    <p class="sub-title">Scalable, fully automatic image moderation for your website or app, powered by state-of-the-art computer vision technologies.</p>
+                class="header__title">Automatic Image Moderation</h1>
+                    <p class="header__sub-title">Scalable, fully automatic image moderation for your website or app, powered by state-of-the-art computer vision technologies.</p>
                     <div class="section__buttons"><a class="button2 button2_type_link button2_theme_pseudo button2_size_l header__demo i-bem" data-bem="{&quot;button2&quot;:{&quot;_tabindex&quot;:&quot;0&quot;,&quot;_url&quot;:&quot;#demo&quot;}}" tabindex="0" href="http://localhost:5000/#demo"
                         onclick="dataLayer.push({ &quot;event&quot;: &quot;try-demo&quot; })"><span class="button2__text">Try demo</span></a>
                         <button class="button2 button2_theme_action button2_size_l header__get-started i-bem button2_js_inited" data-bem="{&quot;button2&quot;:{&quot;_tabindex&quot;:&quot;0&quot;}}"
