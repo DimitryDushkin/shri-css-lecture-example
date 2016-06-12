@@ -430,6 +430,7 @@ noindex:-o-prefocus, .spin2
 }
 .header__messages {
   margin-top: 80px;
+  margin-right: -16px;
 }
 
 .header__messages:after {
@@ -458,10 +459,12 @@ noindex:-o-prefocus, .spin2
   margin-top: 24px;
   font-size: 21px;
   font-weight: bold;
+  padding-right: 16px;
 }
 .message__text {
   margin-top: 8px;
   font-size: 18px;
+  padding-right: 16px;
 }
 @-webkit-keyframes animatedBackground {
   from {

@@ -28,7 +28,13 @@
         }
 
         .message {
-          min-width: 290px;
+          min-width: 265px;
+        }
+
+        @media (max-width: 550px) {
+            .message {
+                width: 100%;
+            }
         }
 
     </style>
@@ -48,25 +54,19 @@
                     </div>
                     <div class="header__messages">
                         <div class="message">
-                            <div class="message__wrapper">
-                                <img class="image" src="./static/hero-icon-1.svg" alt="">
-                                <div class="message__title">Global Web Index of Images</div>
-                                <div class="message__text">We check for image duplicates across the entire Internet.</div>
-                            </div>
+                            <img class="image" src="./static/hero-icon-1.svg" alt="">
+                            <div class="message__title">Global Web Index of Images</div>
+                            <div class="message__text">We check for image duplicates across the entire Internet.</div>
                         </div>
                         <div class="message">
-                            <div class="message__wrapper">
-                                <img class="image" src="./static/hero-icon-3.svg" alt="">
-                                <div class="message__title">Data Privacy &amp; Control</div>
-                                <div class="message__text">We don’t transfer sensitive images to external servers. Only image signatures are shared and a full on-premises deployment is available.</div>
-                            </div>
+                            <img class="image" src="./static/hero-icon-3.svg" alt="">
+                            <div class="message__title">Data Privacy &amp; Control</div>
+                            <div class="message__text">We don’t transfer sensitive images to external servers. Only image signatures are shared and a full on-premises deployment is available.</div>
                         </div>
                         <div class="message">
-                            <div class="message__wrapper">
-                                <img class="image" src="./static/hero-icon-2.svg" alt="">
-                                <div class="message__title">Guaranteed Quality</div>
-                                <div class="message__text">KPIs are constantly controlled and we only charge clients when the quality of service exceeds the agreed defined level.</div>
-                            </div>
+                            <img class="image" src="./static/hero-icon-2.svg" alt="">
+                            <div class="message__title">Guaranteed Quality</div>
+                            <div class="message__text">KPIs are constantly controlled and we only charge clients when the quality of service exceeds the agreed defined level.</div>
                         </div>
                     </div>
             </div>
