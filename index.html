@@ -28,13 +28,22 @@
         }
 
         .message {
-          min-width: 265px;
+            float: none;    /* Override */
+            width: auto;    /* Override */
         }
 
-        @media (max-width: 550px) {
-            .message {
-                width: 100%;
-            }
+        .header__messages {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .message {
+            max-width: 360px;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 260px;
+            /* flex: 1 1 260px; */
         }
 
     </style>
