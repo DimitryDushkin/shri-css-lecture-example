@@ -419,7 +419,6 @@ noindex:-o-prefocus, .spin2
 .header .section {
   background: rgba(23,84,230,0.95);
   padding-top: 0;
-  padding-bottom: 24px;
   color: #fff;
 }
 
@@ -438,27 +437,29 @@ noindex:-o-prefocus, .spin2
     display: block;
     content: " ";
 }
-.header .message {
+
+.message {
   float: left;
-  vertical-align: top;
   width: 33%;
+  vertical-align: top;
+  padding-bottom: 24px;
 }
 
 .message__wrapper {
     margin-right: 32px;
 }
 
-.header .message .image {
+.message .image {
   height: 64px;
 }
-.header .message__title {
+.message__title {
   font-family: "Textbook", Helvetica, Arial, sans-serif;
   letter-spacing: 1.5px;
   margin-top: 24px;
   font-size: 21px;
   font-weight: bold;
 }
-.header .message__text {
+.message__text {
   margin-top: 8px;
   font-size: 18px;
 }
